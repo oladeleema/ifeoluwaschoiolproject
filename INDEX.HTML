@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUNATO COS 103 PROJECT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Inter", system-ui, sans-serif;
+      }
+      .hero-bg {
+        background: linear-gradient(135deg, #0f766e 0%, #164e63 100%);
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow:
+          0 20px 25px -5px rgb(0 0 0 / 0.1),
+          0 8px 10px -6px rgb(0 0 0 / 0.1);
+      }
+    </style>
+  </head>
+  <body class="bg-zinc-50 text-zinc-800">
+    <!-- Top Navigation -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center gap-3">
+          <div
+            class="w-9 h-9 bg-teal-600 rounded-xl flex items-center justify-center text-white font-bold text-xl"
+          >
+            F
+          </div>
+          <h1 class="font-semibold text-xl tracking-tight">FUNATO COS 103</h1>
+        </div>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="#abstract" class="hover:text-teal-600 transition"
+            >Abstract</a
+          >
+          <a href="#intro" class="hover:text-teal-600 transition"
+            >Introduction</a
+          >
+          <a href="#technologies" class="hover:text-teal-600 transition"
+            >Technologies</a
+          >
+          <a href="#benefits" class="hover:text-teal-600 transition"
+            >Benefits</a
+          >
+          <a href="#conclusion" class="hover:text-teal-600 transition"
+            >Conclusion</a
+          >
+        </div>
+        <div class="text-sm bg-zinc-100 px-4 py-2 rounded-2xl font-medium">
+          100 Level • 2025/2026
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero-bg text-white py-24">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-4">
+          FUNATO COS 103 PROJECT
+        </h1>
+        <p class="text-2xl mb-2">Technology in University Education</p>
+        <div class="flex items-center justify-center gap-4 mt-8 text-lg">
+          <div class="bg-white/20 backdrop-blur-md px-6 py-3 rounded-3xl">
+            <span class="font-medium">Ifeoluwa</span>
+          </div>
+          <div class="bg-white/20 backdrop-blur-md px-6 py-3 rounded-3xl">
+            100 Level • 2025/2026
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-6 py-12">
+      <!-- Abstract -->
+      <section id="abstract" class="mb-20">
+        <h2 class="text-3xl font-semibold mb-6 flex items-center gap-3">
+          <i class="fa-solid fa-file-lines text-teal-600"></i> Abstract
+        </h2>
+        <div class="bg-white rounded-3xl p-8 shadow-sm">
+          <p class="text-lg leading-relaxed">
+            This project explores the transformative role of technology in
+            modern university education. It examines how digital tools, learning
+            management systems, artificial intelligence, and smart classroom
+            technologies are reshaping teaching and learning experiences at
+            institutions like the Federal University of Agriculture and
+            Technology Okeho (FUNATO).
+          </p>
+        </div>
+      </section>
+
+      <!-- Introduction -->
+      <section id="intro" class="mb-20">
+        <h2 class="text-3xl font-semibold mb-6">
+          Introduction to Technology in University Education
+        </h2>
+        <div class="prose prose-lg max-w-none">
+          <p class="text-zinc-600">
+            Technology has become an essential part of higher education
+            worldwide. From online lectures to AI-powered learning assistants,
+            universities are increasingly adopting digital solutions to improve
+            access, engagement, and learning outcomes.
+          </p>
+        </div>
+      </section>
+
+      <!-- Importance -->
+      <section class="mb-20">
+        <h2 class="text-3xl font-semibold mb-8">
+          Importance of Technology in Higher Education
+        </h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-8 rounded-3xl card-hover">
+            <i class="fa-solid fa-globe text-4xl text-teal-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Global Access</h3>
+            <p class="text-zinc-600">
+              Breaks geographical barriers and enables remote learning.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl card-hover">
+            <i class="fa-solid fa-chart-line text-4xl text-teal-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Personalized Learning</h3>
+            <p class="text-zinc-600">
+              Adapts to individual student pace and learning style.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-3xl card-hover">
+            <i class="fa-solid fa-handshake text-4xl text-teal-600 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
+            <p class="text-zinc-600">
+              Facilitates teamwork across departments and institutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Current Technologies -->
+      <section id="technologies" class="mb-20">
+        <h2 class="text-3xl font-semibold mb-8">
+          Current Technologies Used in Universities
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="bg-white p-8 rounded-3xl card-hover border border-zinc-100"
+          >
+            <i class="fa-solid fa-laptop text-4xl text-teal-600 mb-4"></i>
+            <h3 class="font-semibold text-xl mb-2">
+              Learning Management Systems (LMS)
+            </h3>
+            <p class="text-zinc-600">Canvas, Moodle, Google Classroom</p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-3xl card-hover border border-zinc-100"
+          >
+            <i class="fa-solid fa-video text-4xl text-teal-600 mb-4"></i>
+            <h3 class="font-semibold text-xl mb-2">
+              Smart Classrooms & Video Conferencing
+            </h3>
+            <p class="text-zinc-600">
+              Zoom, Microsoft Teams, Interactive Boards
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-3xl card-hover border border-zinc-100"
+          >
+            <i class="fa-solid fa-brain text-4xl text-teal-600 mb-4"></i>
+            <h3 class="font-semibold text-xl mb-2">Artificial Intelligence</h3>
+            <p class="text-zinc-600">
+              Chatbots, automated grading, personalized recommendations
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits -->
+      <section id="benefits" class="mb-20">
+        <h2 class="text-3xl font-semibold mb-8">
+          Benefits of Technology Integration
+        </h2>
+        <ul class="space-y-4 text-lg">
+          <li class="flex gap-4">
+            <i class="fa-solid fa-check text-teal-600 mt-1"></i>Improved student
+            engagement and participation
+          </li>
+          <li class="flex gap-4">
+            <i class="fa-solid fa-check text-teal-600 mt-1"></i>Better access to
+            learning resources anytime, anywhere
+          </li>
+          <li class="flex gap-4">
+            <i class="fa-solid fa-check text-teal-600 mt-1"></i>Real-time
+            feedback and performance tracking
+          </li>
+          <li class="flex gap-4">
+            <i class="fa-solid fa-check text-teal-600 mt-1"></i>Enhanced
+            collaboration and knowledge sharing
+          </li>
+          <li class="flex gap-4">
+            <i class="fa-solid fa-check text-teal-600 mt-1"></i>Preparation for
+            the digital workforce
+          </li>
+        </ul>
+      </section>
+
+      <!-- Challenges -->
+      <section class="mb-20">
+        <h2 class="text-3xl font-semibold mb-8">Challenges and Solutions</h2>
+        <div class="bg-white rounded-3xl p-10 grid md:grid-cols-2 gap-10">
+          <div>
+            <h3 class="font-semibold text-red-600 mb-4">Challenges</h3>
+            <ul class="space-y-3">
+              <li>• Poor internet infrastructure</li>
+              <li>• High cost of implementation</li>
+              <li>• Digital divide among students</li>
+              <li>• Resistance to change by lecturers</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-teal-600 mb-4">
+              Recommended Solutions
+            </h3>
+            <ul class="space-y-3">
+              <li>• Investment in campus-wide Wi-Fi</li>
+              <li>• Training programs for staff and students</li>
+              <li>• Public-private partnerships</li>
+              <li>• Gradual hybrid implementation</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendations for FUNATO -->
+      <section class="mb-20">
+        <h2 class="text-3xl font-semibold mb-8">Recommendations for FUNATO</h2>
+        <div
+          class="bg-gradient-to-br from-teal-50 to-white border border-teal-100 rounded-3xl p-10"
+        >
+          <p class="text-lg">
+            FUNATO should prioritize the adoption of a robust Learning
+            Management System, improve campus internet infrastructure, and
+            introduce digital literacy training for both students and lecturers.
+          </p>
+        </div>
+      </section>
+
+      <!-- Conclusion -->
+      <section id="conclusion" class="mb-20">
+        <h2 class="text-3xl font-semibold mb-6">Conclusion</h2>
+        <p class="text-lg leading-relaxed text-zinc-600">
+          Technology is no longer optional in university education — it is
+          fundamental. Embracing it strategically will position FUNATO as a
+          forward-thinking institution ready for the future of learning.
+        </p>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-900 text-zinc-400 py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-8"
+        >
+          <div>
+            <div class="flex items-center gap-3 text-white mb-4">
+              <div
+                class="w-10 h-10 bg-teal-600 rounded-2xl flex items-center justify-center text-2xl font-bold"
+              >
+                F
+              </div>
+              <div>
+                <p class="font-semibold text-lg">
+                  Federal University of Agriculture and Technology Okeho
+                </p>
+                <p class="text-sm">(FUNATO)</p>
+              </div>
+            </div>
+            <p class="text-sm">Department of Computer Science</p>
+          </div>
+
+          <div class="text-center">
+            <p class="text-white font-medium">Ifeoluwa</p>
+            <p class="text-sm">100 Level • COS 103 • 2025/2026</p>
+            <p class="mt-6 text-xs">
+              Submitted in Partial Fulfillment of COS 103 Requirements
+            </p>
+          </div>
+
+          <div class="text-center md:text-right max-w-xs">
+            <p class="italic text-sm">
+              "Technology will not replace great teachers, but technology in the
+              hands of great teachers can be transformational."
+            </p>
+            <p class="text-xs mt-4">— George Couros</p>
+          </div>
+        </div>
+
+        <div class="border-t border-zinc-800 mt-12 pt-8 text-center text-xs">
+          © 2025/2026 Ifeoluwa • Federal University of Agriculture and
+          Technology Okeho
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Tailwind script already included
+      console.log(
+        "%cFUNATO COS 103 Project Website Loaded Successfully",
+        "color: #14b8a6; font-weight: bold",
+      );
+    </script>
+  </body>
+</html>
